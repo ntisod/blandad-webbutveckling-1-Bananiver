@@ -1,5 +1,5 @@
 body {
-    color:blue ;
+    color:#0000ff ;
     background-color: black;
     text-align: center;
   }
@@ -10,14 +10,14 @@ body {
   box-sizing: border-box;
 }
 
-/* For mobile phones: /
 [class="col-"] {
   width: 100%;
 }
+li{
+  text-align: center;
+}
 
 @media only screen and (min-width: 600px) {
-  /* For tablets: /
-  .col-s-1 {width: 8.33%;}
   .col-s-2 {width: 16.66%;}
   .col-s-3 {width: 25%;}
   .col-s-4 {width: 33.33%;}
