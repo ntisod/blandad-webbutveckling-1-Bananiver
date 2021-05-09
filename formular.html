@@ -1,76 +1,50 @@
 <!DOCTYPE html>
 <html lang="sv">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>formulär</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>formulär</title>
+  <link rel="stylesheet" href="style3.css">
 </head>
 <body>
-    <form action="">
-        <label for="fname">namn</label> <br>
+  <form action="">
+    <label for="fname">namn</label><br>
     <input type="text" name="fname" id="fname"><br>
-    <label for="fname">efternamn</label> <br>
+    <label for="fname">efternamn</label><br>
     <input type="text" name="fname" id="fname"><br>
-    <label for="fname">e-postadress</label> <br>
+    <label for="fname">e-postadress</label><br>
     <input type="text" name="fname" id="fname"><br>
-
-  
     <fieldset>
-        <legend> kön</legend>
-<input type="radio" name="gender" id="male" value="man">
-<label for="male">man</label><br>
-<input type="radio" name="gender" id="female" value="kvinna">
-<label for="female">kvinna</label><br>
-<input type="radio" name="gender" id="other" value="icke binär">
-<label for="other">icke binär</label><br>
-<input type="radio" name="gender" id="vill inte ange" value="övrigt">
-<label for="övrigt">vill inte ange</label><br>
+      <legend>kön</legend> <input type="radio" name="gender" id="male" value="man"> <label for="male">man</label><br>
+      <input type="radio" name="gender" id="female" value="kvinna"> <label for="female">kvinna</label><br>
+      <input type="radio" name="gender" id="other" value="icke binär"> <label for="other">icke binär</label><br>
+      <input type="radio" name="gender" id="vill inte ange" value="övrigt"> <label for="övrigt">vill inte ange</label><br>
     </fieldset>
-
-<fieldset>
-<legend> fördjupning i kurser</legend>
-<input type="checkbox" name="engineering" id="engineering" value="val 1">
-<label for="engineering">engineering</label><br>
-<input type="checkbox" name="software" id="software" value="val 2">
-<label for="software">software</label><br>
-</fieldset>
-
-<p> Man får endast ta 2 individuella val!.</p>
-<fieldset>
-    <legend> individuella val(oops,Endast mattematik och engelska kurser ger meritpoäng!)</legend>
-<input type="checkbox" name="engelska 7" id="val 1" value="val 1">
-<label for="engelska 7">Engelska 7</label><br>
-<input type="checkbox" name="idrott och hälsa 2" id="val 2" value="val 2">
-<label for="idrott och hälsa">Idrott och hälsa 2</label><br>
-<input type="checkbox" name="entrepenörskap" id="val 3" value="val 3">
-<label for="entrepenörskap">Entrepenörskap</label><br>
-<input type="checkbox" name="modersmål" id="val 4" value="val 4"> 
-<label for="modersmål">modersmål </label><br>
-<input type="text" modersmål="fname" id="fname"><br> <p> skriv gärna språket på ditt modersmål!</p>
-</fieldset>
-
-<fieldset>
-    <legend>endast för engineering</legend>
-<input type="checkbox" name="Digitalt skapande 1" id="val 1" value="val 1">
-<label for="digitalt skapande 1">digitalt skapande 1</label><br>
-<input type="checkbox" name="Mattematik 5" id="val 2" value="val 2">
-<label for="Mattematik 2">Mattematik 2</label><br>
-<input type="checkbox" name="Webbserverprogrammering 1" id="val 3" value="val 3">
-<label for="webbserverprogrammering 1">webbserverprogrammering 1</label><br>
-</fieldset>
-<fieldset>
-    <legend> endast för software</legend>
-<input type="checkbox" name="Digitalt skapande 2" id="val 1" value="val 1">
-<label for="digitalt skapande 2">digitalt skapande 2</label><br>
-<input type="checkbox" name="Fysik 2" id="val 2" value="val 2">
-<label for="Fysik 2">Fysik 2</label><br>
-<input type="checkbox" name="Mattematik 4" id="val 3" value="val 3">
-<label for="Mattematik 4">Mattematik 4</label><br>
-</fieldset>
-<br>
-<p> Kolla igenom svaren en gång till!, innan du skickar in.</p>
-<input type="submit" value="skicka in">
-    </form>
+    <fieldset>
+      <legend>fördjupning i kurser</legend> <input type="checkbox" name="engineering" id="engineering" value="val 1"> <label for="engineering">engineering</label><br>
+      <input type="checkbox" name="software" id="software" value="val 2"> <label for="software">software</label><br>
+    </fieldset>
+    <p>Man får endast ta 2 individuella val!.</p>
+    <fieldset>
+      <legend>individuella val(oops,Endast mattematik och engelska kurser ger meritpoäng!)</legend> <input type="checkbox" name="engelska 7" id="val 1" value="val 1"> <label for="engelska 7">Engelska 7</label><br>
+      <input type="checkbox" name="idrott och hälsa 2" id="val 2" value="val 2"> <label for="idrott och hälsa">Idrott och hälsa 2</label><br>
+      <input type="checkbox" name="entrepenörskap" id="val 3" value="val 3"> <label for="entrepenörskap">Entrepenörskap</label><br>
+      <input type="checkbox" name="modersmål" id="val 4" value="val 4"> <label for="modersmål">modersmål</label><br>
+      <input type="text" id="fname"><br>
+      <p>skriv gärna språket på ditt modersmål!</p>
+    </fieldset>
+    <fieldset>
+      <legend>endast för engineering</legend> <input type="checkbox" name="Digitalt skapande 1" id="val 1" value="val 1"> <label for="digitalt skapande 1">digitalt skapande 1</label><br>
+      <input type="checkbox" name="Mattematik 5" id="val 2" value="val 2"> <label for="Mattematik 2">Mattematik 2</label><br>
+      <input type="checkbox" name="Webbserverprogrammering 1" id="val 3" value="val 3"> <label for="webbserverprogrammering 1">webbserverprogrammering 1</label><br>
+    </fieldset>
+    <fieldset>
+      <legend>endast för software</legend> <input type="checkbox" name="Digitalt skapande 2" id="val 1" value="val 1"> <label for="digitalt skapande 2">digitalt skapande 2</label><br>
+      <input type="checkbox" name="Fysik 2" id="val 2" value="val 2"> <label for="Fysik 2">Fysik 2</label><br>
+      <input type="checkbox" name="Mattematik 4" id="val 3" value="val 3"> <label for="Mattematik 4">Mattematik 4</label><br>
+    </fieldset><br>
+    <p>Kolla igenom svaren en gång till!, innan du skickar in.</p><input type="submit" value="skicka in">
+  </form>
 </body>
 </html>
